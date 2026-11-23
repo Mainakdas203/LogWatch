@@ -1,0 +1,29 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Generated Python files
+*.py[cod]
+
+# Streamlit local state
+.streamlit/secrets.toml
+
+# Local environment and editor settings
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+
+# Temporary and operating-system files
+*.tmp
+*.temp
+*.log
+.DS_Store
+Thumbs.db
+Desktop.ini
